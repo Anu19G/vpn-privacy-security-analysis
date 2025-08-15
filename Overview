@@ -1,0 +1,53 @@
+# Overview — VPN Privacy & Security Analysis
+
+## 🎯 Objective
+To understand the role of Virtual Private Networks (VPNs) in protecting user privacy, encrypting data, and securing communications. This is achieved through practical testing using ProtonVPN on Windows and analyzing traffic with Wireshark.
+
+---
+
+## 🔍 Scope
+This project covers:
+- VPN basics and their importance in modern internet usage.
+- Encryption mechanisms used in VPNs.
+- Privacy protection through IP masking and DNS leak prevention.
+- Tunneling protocols and their differences (WireGuard vs OpenVPN).
+- Network security enhancements provided by VPNs.
+
+---
+
+## 🛠 Tools & Resources
+- **ProtonVPN (Free Plan)** — VPN service provider.
+- **Wireshark** — Network protocol analyzer.
+- **DNS Leak Test & IP Leak Test** — Online tools to verify privacy.
+- **Windows 10/11** — Test environment.
+
+---
+
+## 📂 Methodology
+1. Prepare and configure ProtonVPN on Windows.
+2. Connect to a VPN server and verify the assigned IP.
+3. Identify the tunneling protocol in use.
+4. Test encryption and privacy using DNS/IP leak tests.
+5. Capture and analyze traffic with VPN ON and OFF.
+6. Compare WireGuard and OpenVPN in terms of speed, encryption, and packet structure.
+
+---
+
+## 📊 Key Findings
+- **WireGuard** offers faster performance with modern encryption (ChaCha20).
+- **OpenVPN** is more mature, highly configurable, and uses AES-256 encryption.
+- VPN usage prevents exposure of DNS requests and IP addresses to local network attackers.
+- Without VPN, DNS queries and certain connection metadata are visible in plaintext.
+
+---
+
+## 📷 Deliverables
+- Screenshots of ProtonVPN connection status.
+- Wireshark captures showing VPN-encrypted traffic.
+- Comparative table of WireGuard vs OpenVPN features.
+- Analysis of VPN’s role in encryption, privacy, tunneling, and network security.
+
+---
+
+## 📌 Conclusion
+Using a VPN significantly improves online privacy and security by encrypting all traffic, hiding DNS queries, and masking the user’s real IP address. Protocol choice (WireGuard vs OpenVPN) can influence performance, but both provide strong security guarantees when configured properly.
