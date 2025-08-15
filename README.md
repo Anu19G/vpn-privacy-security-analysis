@@ -1,6 +1,6 @@
 ## VPN Privacy & Security Analysis
 
-- This project demonstrates the role of Virtual Private Networks (VPNs) in protecting privacy and securing communication. It includes hands-on testing with **ProtonVPN** on Windows, using **WireGuard** and **OpenVPN** tunneling protocols, and network traffic analysis with **Wireshark**.
+This project demonstrates the role of Virtual Private Networks (VPNs) in protecting privacy and securing communication. It includes hands-on testing with **ProtonVPN** on Windows, using **WireGuard** and **OpenVPN** tunneling protocols, and network traffic analysis with **Wireshark**.
 
 The tests highlight:
 - VPN encryption mechanisms
